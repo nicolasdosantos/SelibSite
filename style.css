@@ -1,0 +1,264 @@
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180.07deg, #F6EADB 54.18%, #FD9955 69.2%, #FF7B24 74.68%);
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  header {
+    background-image: url(img/imagem-header.png);
+    width: 1044;
+    height: 150px;
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+
+  h1 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+  }
+
+  .botões {
+    display: flex;
+    gap: 20px;
+  }
+
+  .botao {
+    padding: 10px 20px;
+    background-color: #ffe2ad;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease-in;
+  }
+
+  .botao:hover{
+    box-shadow: 1px 1px 1px 1px black;
+  }
+
+  .banner{
+    background-image: url(img/banner-selibi.png);
+    width: 1260px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 30px;
+  }
+
+  .banner .texto{
+    padding-top: 54px;
+    width: 700px;
+    padding-left: 374px;
+    font-size: 19px;
+    font-family: 'Krona One', sans-serif;
+  }
+
+  .homenageado{
+    display: flex;
+    margin-top: 35px;
+  }
+
+  .homenageado img{
+    height: 350px;
+    padding-left: 30px;
+  }
+
+  .homenageado .texto .titulo{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 4px;
+    font-family: 'Krona One', sans-serif;
+  }
+
+  .homenageado .texto .texto{
+    margin-left: 90px;
+    width: 715px;
+    font-size: 16px;
+    font-family: 'Krona One', sans-serif;
+  }
+
+  .imagens-texto .um{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+  }
+
+  .imagens-texto .dois{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+
+  }
+
+  .imagens-texto .três{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+
+  }
+
+  .imagens-texto .um .img img{
+    display: block;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+
+  .imagens-texto .dois .img img{
+    display: block
+  }
+
+  .imagens-texto .três .img img{
+    display: block;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+
+  .imagens-texto .um .texto p{
+    padding-right: 30px;
+    font-size: 20px;
+    padding-top: 44px;
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+  }
+
+  .imagens-texto .dois .texto p{
+    padding-left: 30px;
+    font-size: 20px;
+    padding-top: 64px;
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+
+  }
+
+  .imagens-texto .três .texto p{
+    padding-right: 30px;
+    font-size: 18px;
+    padding-top: 62px;
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+
+  }
+
+  .livros .título p{
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .livros .capas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 15px;
+  }
+
+  .banner-premios{
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+
+  .banner-frase{
+    margin-top: 35px;
+  }
+
+
+  .imagens-texto{
+    margin-top: 35px;
+  }
+
+
+  .info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 35px;
+    text-align: center;
+
+  }
+
+
+  .jabuti{
+    display: grid;
+    grid-template-rows: auto;
+  }
+
+  .apca{
+    display: grid;
+    grid-template-rows: auto ;
+  }
+
+  .apca img{
+      margin-top: 50px;
+      margin-left: 60px;
+}
+  
+  .fnlj{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .fnlj img{
+    height: 160px;
+    margin-left: 50px;
+  }
+
+  .adolfo{
+    display: grid;
+    grid-template-rows: auto;
+  }
+
+  #encerramento{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+  }
+
+  .agradecimento h2{
+    font-size: 35px;
+    font-family: 'Krona One', sans-serif;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+  }
+
+  .foto img{
+    margin-top: 35px;
+    margin-left: 20px;
+  }
+
+  .produtores{
+    background-color: orange;
+    height: 35px;
+  }
+
+
+  .produtores h2{
+    margin: 15px;
+    color: black;
+    font-family: 'Krona One', sans-serif;
+    text-align: left;
+    padding: 5px;
+    font-size: 15px;
+  }
+
