@@ -201,11 +201,13 @@
   .jabuti{
     display: grid;
     grid-template-rows: auto;
+    font-family: 'Krona One', sans-serif;
   }
 
   .apca{
     display: grid;
     grid-template-rows: auto ;
+    font-family: 'Krona One', sans-serif;
   }
 
   .apca img{
@@ -215,17 +217,19 @@
   
   .fnlj{
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    font-family: 'Krona One', sans-serif;
   }
 
   .fnlj img{
-    height: 160px;
+    height: 140px;
     margin-left: 50px;
   }
 
   .adolfo{
     display: grid;
-    grid-template-rows: auto;
+    grid-template-rows: 1fr 2fr;
+    font-family: 'Krona One', sans-serif;
   }
 
   #encerramento{
